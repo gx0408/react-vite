@@ -1,6 +1,6 @@
 // router/index.js
-import Index from '@/container/Index'
-import About from '@/container/About'
+import Index from '@/views/Index'
+import About from '@/views/About'
 
 const routes = [
   {
