@@ -18,7 +18,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src') // src 路径
     }
   },
-  base: base.cdn,
+  // base: base.cdn,
   // plugins: [react()],
   plugins: [
     reactRefresh(),

@@ -10,5 +10,9 @@ export default {
   release: {
     cdn: '//s.xxx.com/vite-react-app/release', // 正式环境 cdn 路径
     apiBaseUrl: '//www.xxx.com/v1' // 正式环境接口地址
-  }
+  },
+  production: {
+    cdn: '//s.xxx.com/vite-react-app/production', // 正式环境 cdn 路径
+    apiBaseUrl: '//www.xxx.com/v1' // 正式环境接口地址
+  },
 }

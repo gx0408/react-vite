@@ -6,7 +6,9 @@
     "dev": "vite --mode development",
     "build:beta": "vite build --mode beta",
     "build:release": "vite build --mode release",
-    "serve": "vite preview"
+    "build:pro": "vite build --mode production",
+    "serve": "vite preview",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",

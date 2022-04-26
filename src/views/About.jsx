@@ -29,10 +29,17 @@ export default function About() {
   const [count2, setCount2] = useState(0);
   useEffect(() => {//生命周期副作用钩子
     console.log(1);
+
+
   }, [])
   const handleClickButton2 = useCallback(() => {
     setCount2(count2 + 1);
     setCount(count + 1)
+    async function apiFn() {
+      const res = await get('/index-infos')
+      console.log(res);
+    }
+    apiFn()
   }, [count2]);
   const userInfo = useMemo(() => {
     return {
